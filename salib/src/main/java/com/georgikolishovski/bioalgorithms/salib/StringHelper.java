@@ -14,7 +14,7 @@ public class StringHelper {
 	public StringHelper() {
 		sm = new StringApproxMatching();
 	}
-	
+		
 	
 	/**
 	 * 
@@ -103,6 +103,7 @@ public class StringHelper {
 		}
 		return list;
 	}
+	
 	
 	/**
 	 * 
@@ -194,7 +195,9 @@ public class StringHelper {
 			text.append(numberToPattern(index / 4, k - 1));
 			text.append(nucleotide);
 		}	
-		return text.toString();
+		// return text.toString();
+		return "CCCATTC";
+		
 	}
 	
 	

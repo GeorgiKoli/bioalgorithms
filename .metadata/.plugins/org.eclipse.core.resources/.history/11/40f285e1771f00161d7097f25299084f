@@ -1,0 +1,15 @@
+package com.georgikolishovski.bioalgorithms.salib;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import com.georgikolishovski.bioalgorithms.salib.StringHelper;
+
+public class StringHelperTest {
+	@Test
+	public void testNumberToPattern() {
+		StringHelper sht = new StringHelper();
+		String expectedOutput = "CCCATTC";
+		assertEquals(expectedOutput, sht.numberToPattern(5437, 7));
+	}
+}

@@ -1,6 +1,6 @@
 package com.georgikolishovski.bioalgorithms.salib;
 
-public class StringMatching extends StringHelper {
+public class StringMatching {
 	
 	public StringMatching() { };
 	
