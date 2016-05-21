@@ -1,0 +1,546 @@
+2016-05-18 20:07:22,670 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\biolib\pom.xml
+2016-05-18 20:07:37,944 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: biolib:biolib:0.0.1-SNAPSHOT @ D:\bioalgorithms\biolib\pom.xml.
+2016-05-18 20:07:41,124 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /biolib/src/main/java
+2016-05-18 20:07:41,152 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /biolib/src/test/java
+2016-05-18 20:07:43,435 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 20 sec
+2016-05-18 20:07:45,378 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:07:45,378 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\main\resources
+2016-05-18 20:07:45,382 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:07:45,382 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\test\resources
+2016-05-18 20:08:05,317 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-18 20:08:11,046 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biolib
+2016-05-18 20:08:11,046 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-18 20:21:26,756 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:21:26,756 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\main\resources
+2016-05-18 20:21:26,762 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:21:26,762 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\test\resources
+2016-05-18 20:21:35,270 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-18 20:21:39,866 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biolib
+2016-05-18 20:21:39,866 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-18 20:40:28,575 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:40:28,576 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\main\resources
+2016-05-18 20:40:28,578 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:40:28,579 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biolib\src\test\resources
+2016-05-18 20:40:34,230 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-18 20:40:39,957 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biolib
+2016-05-18 20:40:39,958 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-18 20:44:25,657 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\algorithms\pom.xml
+2016-05-18 20:44:25,795 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:algorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\algorithms\pom.xml.
+2016-05-18 20:44:25,956 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /algorithms/src/main/java
+2016-05-18 20:44:25,961 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /algorithms/src/test/java
+2016-05-18 20:44:26,045 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-05-18 20:44:26,491 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:44:26,492 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\algorithms\src\main\resources
+2016-05-18 20:44:26,494 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 20:44:26,494 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\algorithms\src\test\resources
+2016-05-18 20:44:44,981 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-18 20:44:48,659 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\algorithms
+2016-05-18 20:44:48,660 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-19 07:15:33,040 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\salib\pom.xml
+2016-05-19 07:15:35,533 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-19 07:15:36,067 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib/src/main/java
+2016-05-19 07:15:36,071 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib/src/test/java
+2016-05-19 07:15:36,744 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2016-05-19 07:15:38,455 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 07:15:38,456 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-19 07:15:38,475 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 07:15:38,475 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-19 07:22:05,417 [Worker-95] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\bioalgorithms\pom.xml
+2016-05-19 07:22:05,636 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-19 07:22:05,830 [Worker-95] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bioalgorithms/src/main/java
+2016-05-19 07:22:05,837 [Worker-95] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bioalgorithms/src/test/java
+2016-05-19 07:22:05,957 [Worker-95] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-05-19 07:22:06,563 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 07:22:06,564 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-19 07:22:06,566 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 07:22:06,566 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-19 07:24:51,379 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-19 07:24:57,005 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\bioalgorithms
+2016-05-19 07:24:57,006 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-19 07:25:31,575 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-19 07:25:36,788 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-19 07:25:36,789 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-19 22:45:42,085 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-19 22:45:47,231 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:47,232 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-19 22:45:48,238 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-19 22:45:48,240 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:48,240 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-19 22:45:48,743 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-19 22:45:49,421 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:49,421 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-19 22:45:49,423 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:49,424 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-19 22:45:49,619 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:49,620 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-19 22:45:49,621 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-19 22:45:49,621 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 09:30:09,764 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\salib-strings\pom.xml
+2016-05-20 09:30:10,511 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.salib:salib-strings:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib-strings\pom.xml.
+2016-05-20 09:30:11,754 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib-strings/src/main/java
+2016-05-20 09:30:11,763 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib-strings/src/test/java
+2016-05-20 09:30:12,876 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2016-05-20 09:30:13,735 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 09:30:13,735 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib-strings\src\main\resources
+2016-05-20 09:30:13,737 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 09:30:13,738 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib-strings\src\test\resources
+2016-05-20 10:32:48,193 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:32:48,218 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib-strings\src\main\resources
+2016-05-20 10:32:48,220 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:32:48,220 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib-strings\src\test\resources
+2016-05-20 10:33:20,564 [Worker-97] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\strings\pom.xml
+2016-05-20 10:33:20,899 [Worker-97] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.salib:strings:0.0.1-SNAPSHOT @ D:\bioalgorithms\strings\pom.xml.
+2016-05-20 10:33:20,992 [Worker-97] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/main/java
+2016-05-20 10:33:20,999 [Worker-97] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/test/java
+2016-05-20 10:33:21,141 [Worker-97] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-05-20 10:33:21,698 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:33:21,698 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:33:21,700 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:33:21,700 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 10:33:32,022 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 10:33:42,365 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\strings
+2016-05-20 10:33:42,365 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 10:54:43,137 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:54:43,138 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:54:43,143 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:54:43,144 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 10:55:26,932 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:55:26,932 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:55:26,941 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:55:26,943 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 10:56:22,002 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:56:22,002 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:56:22,005 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:56:22,005 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 10:56:54,119 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:56:54,120 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:56:54,151 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:56:54,151 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 10:57:38,097 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:57:38,098 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\main\resources
+2016-05-20 10:57:38,099 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 10:57:38,099 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\strings\src\test\resources
+2016-05-20 21:17:44,659 [Worker-194] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\biostructures\pom.xml
+2016-05-20 21:17:47,477 [Worker-194] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-20 21:17:47,859 [Worker-194] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /biostructures/src/main/java
+2016-05-20 21:17:47,901 [Worker-194] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /biostructures/src/test/java
+2016-05-20 21:17:48,622 [Worker-194] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2016-05-20 21:17:50,205 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:17:50,205 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:17:50,210 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:17:50,210 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:18:03,657 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 21:18:09,607 [Worker-197] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 21:18:09,607 [Worker-197] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 21:21:21,233 [Worker-196] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\bioalgorithms\salib\pom.xml
+2016-05-20 21:21:21,388 [Worker-196] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 21:21:21,610 [Worker-196] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib/src/main/java
+2016-05-20 21:21:21,614 [Worker-196] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /salib/src/test/java
+2016-05-20 21:21:21,782 [Worker-196] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-05-20 21:21:22,528 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:21:22,529 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 21:21:22,529 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:21:22,530 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 21:36:05,668 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:36:05,668 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 21:36:05,670 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:36:05,670 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 21:41:27,760 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:41:27,761 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:41:27,762 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:41:27,762 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:42:00,166 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:00,167 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:42:00,170 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:00,170 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:42:30,759 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:30,760 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:42:30,772 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:30,772 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:42:46,827 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:46,828 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:42:46,894 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:42:46,894 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:43:01,051 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:43:01,051 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:43:01,055 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:43:01,056 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:43:16,211 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:43:16,211 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:43:16,212 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:43:16,212 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:47:56,089 [Worker-207] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-20 21:47:57,143 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:47:57,144 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:47:57,146 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:47:57,146 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:47:58,620 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:47:58,620 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:47:58,622 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:47:58,622 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:48:03,232 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 21:48:12,467 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 21:48:12,467 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 21:51:28,971 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:51:28,972 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:51:28,974 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:51:28,975 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:52:45,009 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:52:45,010 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:52:45,012 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:52:45,013 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:53:12,214 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:53:12,215 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:53:12,217 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:53:12,218 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:54:17,803 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:17,804 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:54:17,805 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:17,805 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:54:26,209 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:26,209 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:54:26,250 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:26,250 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:54:37,415 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:37,416 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:54:37,417 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:54:37,418 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:55:48,761 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:48,762 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:55:48,763 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:48,764 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:55:49,804 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:49,804 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:55:49,806 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:49,806 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:55:57,900 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:57,901 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:55:57,903 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:55:57,903 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:56:04,216 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:56:04,216 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:56:04,217 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:56:04,218 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:56:41,336 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:56:41,337 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 21:56:41,339 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 21:56:41,370 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 21:57:05,386 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 21:57:12,094 [Worker-213] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 21:57:12,094 [Worker-213] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 22:03:43,784 [Worker-220] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-20 22:03:43,960 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:03:43,981 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:03:43,983 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:03:43,983 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:03:49,809 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 22:04:01,812 [Worker-220] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 22:04:01,812 [Worker-220] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package shade:shade
+2016-05-20 22:04:09,148 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:09,148 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:04:09,150 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:09,150 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:04:26,912 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:26,913 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:04:26,914 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:26,914 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:04:30,940 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:30,940 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:04:30,949 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:30,949 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:04:37,572 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:37,572 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:04:37,574 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:04:37,574 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:15:09,301 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 22:15:26,937 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 22:15:26,938 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package shade:shade
+2016-05-20 22:20:15,342 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:20:15,343 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:20:15,344 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:20:15,344 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:20:59,458 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:20:59,458 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:20:59,460 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:20:59,460 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:21:10,964 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:21:10,965 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:21:10,966 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:21:10,966 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:22:07,985 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:07,985 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:22:07,987 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:07,988 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:22:26,726 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:26,727 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:22:26,728 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:26,728 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:22:40,793 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:40,793 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:22:40,794 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:22:40,794 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:23:24,806 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:23:24,806 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:23:24,807 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:23:24,808 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:39:02,225 [Worker-232] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 22:39:02,225 [Worker-232] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Dfile=D:\bioalgorithms\biostructures-0.0.1-SNAPSHOT.jar -DgroupId=com.georgikolishovski.bioalgorithms.biostructures -DartifactId=biostructures -Dversion=1.0 -Dpackaging=jar  -B install:install-file
+2016-05-20 22:41:11,154 [Worker-235] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 22:41:11,155 [Worker-235] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Dfile=D:\bioalgorithms\biostructures-0.0.1-SNAPSHOT.jar -DgroupId=com.georgikolishovski.bioalgorithms.biostructures -DartifactId=biostructures -Dversion=1.0 -Dpackaging=jar  -B install:install-file
+2016-05-20 22:51:38,423 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 22:52:04,671 [Worker-240] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 22:52:04,671 [Worker-240] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package shade:shade
+2016-05-20 22:52:28,529 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:52:28,530 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-20 22:52:28,537 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:52:28,538 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-20 22:56:42,643 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\biostructures
+2016-05-20 22:56:42,643 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Dfile=D:\bioalgorithms\biostructures-0.0.1-SNAPSHOT.jar -DgroupId=com.georgikolishovski.bioalgorithms.biostructures -DartifactId=biostructures -Dversion=1.0 -Dpackaging=jar  -B install:install-file
+2016-05-20 22:59:19,172 [Worker-245] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 22:59:19,662 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:19,663 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:59:19,665 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:19,665 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:59:20,978 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:20,979 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:59:20,980 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:20,980 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:59:30,793 [Worker-247] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 22:59:30,890 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:30,891 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 22:59:30,893 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 22:59:30,893 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 22:59:35,904 [Worker-241] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 23:00:12,970 [Worker-243] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/1.0/junit-1.0.pom
+2016-05-20 23:00:12,976 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for junit:junit:jar:1.0 is missing, no dependency information available
+2016-05-20 23:00:12,980 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for junit:junit:jar:1.0 is missing, no dependency information available
+2016-05-20 23:00:15,930 [Worker-241] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/1.0/junit-1.0.jar
+2016-05-20 23:00:16,046 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:16,046 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:00:16,048 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:16,048 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:00:21,095 [Worker-241] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 23:00:21,182 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:21,182 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:00:21,185 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:21,185 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:00:22,513 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:22,513 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:00:22,515 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:00:22,516 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:00:40,221 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 23:00:47,028 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 23:00:47,029 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 23:02:17,470 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:02:17,470 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:02:17,474 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:02:17,474 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:02:38,403 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:02:38,403 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:02:38,405 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:02:38,405 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:03:35,927 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:03:35,927 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:03:35,929 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:03:35,929 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:07:18,662 [Worker-241] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-20 23:07:29,655 [Worker-241] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+2016-05-20 23:07:31,030 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:07:31,031 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:07:31,032 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:07:31,033 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:07:31,124 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 23:07:33,356 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:07:33,357 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:07:33,358 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:07:33,359 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:08:03,905 [Worker-248] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 23:08:03,906 [Worker-248] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package shade:shade
+2016-05-20 23:09:45,934 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:09:45,935 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:09:45,936 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:09:45,936 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:10:08,691 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 23:10:24,973 [Worker-251] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 23:10:24,973 [Worker-251] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package shade:shade
+2016-05-20 23:10:44,348 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:10:44,348 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:10:44,349 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:10:44,349 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:10:45,393 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:10:45,394 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:10:45,395 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:10:45,395 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:26:08,129 [Worker-253] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\salib
+2016-05-20 23:26:08,130 [Worker-253] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Dfile=D:\bioalgorithms\salib-0.0.1-SNAPSHOT.jar -DgroupId=com.georgikolishovski.bioalgorithms.salib -DartifactId=salib -Dversion=1.0 -Dpackaging=jar  -B install:install-file
+2016-05-20 23:27:04,259 [Worker-248] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-20 23:27:24,358 [Worker-255] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-20 23:27:24,498 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:27:24,499 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:27:24,500 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:27:24,500 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:27:26,114 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:27:26,114 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:27:26,116 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:27:26,116 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:27:34,442 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-05-20 23:27:38,946 [Worker-255] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\bioalgorithms\bioalgorithms
+2016-05-20 23:27:38,946 [Worker-255] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2016-05-20 23:28:48,447 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:28:48,447 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:28:48,448 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:28:48,448 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:29:06,916 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:29:06,916 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:29:06,917 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:29:06,917 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:40:01,898 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:40:01,898 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:40:01,900 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:40:01,901 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:40:50,513 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:40:50,514 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:40:50,515 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:40:50,515 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:41:08,199 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:41:08,200 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:41:08,201 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:41:08,202 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:42:04,534 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:04,534 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:42:04,537 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:04,537 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:42:17,196 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:17,196 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:42:17,197 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:17,198 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:42:47,448 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:47,449 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:42:47,450 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:42:47,450 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:43:19,541 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:19,541 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:43:19,543 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:19,543 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:43:31,684 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:31,685 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:43:31,686 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:31,686 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:43:48,216 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:48,216 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:43:48,219 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:43:48,219 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:44:02,260 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:02,260 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:44:02,261 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:02,262 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:44:09,656 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:09,656 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-20 23:44:09,658 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:09,659 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-20 23:44:58,689 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:58,689 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:44:58,693 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:44:58,693 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:46:57,015 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:46:57,016 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:46:57,017 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:46:57,018 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:47:19,788 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:47:19,789 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:47:19,790 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:47:19,790 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:47:52,982 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:47:52,982 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:47:52,991 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:47:52,991 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:48:36,565 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:48:36,565 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:48:36,566 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:48:36,566 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:49:51,314 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:49:51,315 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:49:51,315 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:49:51,316 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:50:38,436 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:50:38,436 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:50:38,437 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:50:38,437 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:51:25,501 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:51:25,501 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:51:25,502 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:51:25,503 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:51:41,825 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:51:41,825 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:51:41,826 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:51:41,827 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:56:18,161 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:56:18,161 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:56:18,162 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:56:18,162 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:56:36,183 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:56:36,183 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:56:36,184 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:56:36,184 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:57:12,564 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:57:12,564 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:57:12,565 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:57:12,565 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-20 23:58:11,764 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:58:11,764 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-20 23:58:11,765 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-20 23:58:11,766 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 00:09:55,592 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:09:55,592 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 00:09:55,593 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:09:55,594 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 00:11:45,379 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:11:45,379 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 00:11:45,380 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:11:45,380 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 00:12:01,487 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:12:01,487 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 00:12:01,488 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:12:01,489 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 00:12:43,981 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:12:43,981 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 00:12:43,982 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 00:12:43,983 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 09:20:08,259 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-21 09:20:13,277 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:13,278 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 09:20:14,444 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-21 09:20:14,445 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:14,446 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 09:20:15,393 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-21 09:20:15,609 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-21 09:20:16,782 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-21 09:20:17,008 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:17,008 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-21 09:20:17,010 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:17,011 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-21 09:20:22,251 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-21 09:20:24,235 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-21 09:20:25,015 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:25,015 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-21 09:20:25,018 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:25,019 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources
+2016-05-21 09:20:26,620 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski:bioalgorithms:0.0.1-SNAPSHOT @ D:\bioalgorithms\bioalgorithms\pom.xml.
+2016-05-21 09:20:27,280 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.biostructures:biostructures:0.0.1-SNAPSHOT @ D:\bioalgorithms\biostructures\pom.xml.
+2016-05-21 09:20:27,310 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:27,310 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 09:20:27,313 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:27,314 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 09:20:27,423 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.georgikolishovski.bioalgorithms.salib:salib:0.0.1-SNAPSHOT @ D:\bioalgorithms\salib\pom.xml.
+2016-05-21 09:20:29,070 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:29,071 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\main\resources
+2016-05-21 09:20:29,074 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:29,074 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\bioalgorithms\src\test\resources
+2016-05-21 09:20:29,118 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:29,119 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\main\resources
+2016-05-21 09:20:29,120 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:29,122 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\biostructures\src\test\resources
+2016-05-21 09:20:30,138 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:30,138 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\main\resources
+2016-05-21 09:20:30,141 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-21 09:20:30,142 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\bioalgorithms\salib\src\test\resources

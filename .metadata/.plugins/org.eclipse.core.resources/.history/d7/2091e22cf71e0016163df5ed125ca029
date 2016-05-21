@@ -1,0 +1,8 @@
+package com.georgikolishovski.bioalgorithms.biostructures;
+
+import org.junit.Test;
+import org.junit.Assert;
+
+public class RnaMoleculeTest {
+	
+}

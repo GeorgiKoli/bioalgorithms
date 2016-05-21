@@ -1,0 +1,5 @@
+package com.georgikolishovski.biomolecules;
+
+public interface Molecule {
+
+}
