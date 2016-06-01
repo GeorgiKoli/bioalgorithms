@@ -1,0 +1,3 @@
+# ignore Eclipse settings folders
+.metadata/*
+.recommenders/*

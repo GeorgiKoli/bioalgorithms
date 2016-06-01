@@ -9,6 +9,29 @@ import edu.emory.mathcs.backport.java.util.Arrays;
 
 public class StringHelperTest {
 	@Test
+	public void testClumpFinding() {
+		assertTrue(true);
+	}
+	
+	@Test 
+	public void testComputingFrequencies() {
+		StringHelper sht = new StringHelper();
+		String[] expectedOutput = new String[]{"2", "1", "0", "0", "0", "0", "2", "2", "1", "2", "1", "0", "0", "1", "1", "0"};
+		String[] observedOutput = sht.computingFrequencies("ACGCGGCTCTGAAA", 2).split(" ");
+		assertArrayEquals(expectedOutput, observedOutput);
+	}
+	
+	@Test
+	public void testFasterFrequentWords() {
+		StringHelper sht = new StringHelper();
+		String[] expectedOutput = new String[]{"CATG", "GCAT"};
+		String[] observedOutput = sht.fasterFrequentWords("ACGTTGCATGTCGCATGATGCATGAGAGCT", 4).split(" ");
+		Arrays.sort(observedOutput);
+		
+		assertArrayEquals(expectedOutput, observedOutput);
+	}
+	
+	@Test
 	public void testNeighbors() {
 		StringHelper sht = new StringHelper();
 		String[] expectedOutput = new String[]{"AAG", "ACA", "ACC", "ACG", "ACT", "AGG", "ATG", "CCG", "GCG", "TCG"};

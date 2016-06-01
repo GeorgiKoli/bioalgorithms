@@ -117,13 +117,13 @@ public class StringHelper {
 		String[] strArr = computingFrequencies(text, k).split(" ");
 		Integer[] freqArr = new Integer[strArr.length];
 		
-		for(int i = 0; i < strArr.length; i++) {
+		for(int i = 0; i < strArr.length; ++i) {
 			freqArr[i] = Integer.parseInt(strArr[i]);
 		}
 		
 		int maxCount = (int) Collections.max(Arrays.asList(freqArr));
 		
-		for(int i = 0; i < freqArr.length; i++) {
+		for(int i = 0; i < freqArr.length; ++i) {
 			if(freqArr[i] >= maxCount) {
 				frequentPatterns.append(numberToPattern(i, k) + " ");
 			}

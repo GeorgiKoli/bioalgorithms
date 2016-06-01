@@ -66,7 +66,7 @@ public class GenomeAssembling {
 	public List<Integer> eulerianCycle(String[] adjlist) {
 		int n = adjlist.length;
 		@SuppressWarnings("unchecked")
-		List<Integer>[] g = new List[n];
+		List<Integer>[] g = (List<Integer>[]) new List[n];
 		for(int i = 0; i < n; ++i) {
 			g[i] = new ArrayList<Integer>();
 		}
