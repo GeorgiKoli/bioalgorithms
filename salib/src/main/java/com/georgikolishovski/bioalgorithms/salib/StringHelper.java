@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.georgikolishovski.bioalgorithms.biostructures.*;
-
 public class StringHelper {
 	
 	private StringApproxMatching sm = null;
@@ -141,6 +139,8 @@ public class StringHelper {
 	 * @author Georgi Kolishovski
 	 */
 	public String neighbors(String pattern, int d) {
+		String[] bases = {"A", "T", "G", "C"};
+		
 		if(d == 0) {
 			return pattern;
 		} else if(pattern.length() == 1) {
@@ -153,7 +153,7 @@ public class StringHelper {
 		for(int i = 0; i < suffixNeighbors.length; i++) {
 			if(sm.hammingDistance(suffix(pattern), suffixNeighbors[i]) < d) {
 				for(int j = 0; j < 4; j++) {
-					neighborhood.append(DnaMolecule.getBases()[j] + suffixNeighbors[i] + " ");
+					neighborhood.append(bases[j] + suffixNeighbors[i] + " ");
 				}
 			} else {
 				neighborhood.append(String.valueOf(pattern.charAt(0)) + suffixNeighbors[i] + " ");

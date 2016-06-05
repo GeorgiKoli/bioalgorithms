@@ -21,6 +21,7 @@ public class StringHelperTest {
 		assertArrayEquals(expectedOutput, observedOutput);
 	}
 	
+	/*
 	@Test
 	public void testFasterFrequentWords() {
 		StringHelper sht = new StringHelper();
@@ -29,7 +30,7 @@ public class StringHelperTest {
 		Arrays.sort(observedOutput);
 		
 		assertArrayEquals(expectedOutput, observedOutput);
-	}
+	} */
 	
 	@Test
 	public void testNeighbors() {

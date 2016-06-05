@@ -22,8 +22,8 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.georgikolishovski.bioalgorithms.salib</groupId>
-      <artifactId>salib</artifactId>
+      <groupId>biostructures</groupId>
+      <artifactId>biostructures</artifactId>
       <version>1.0</version>
       <scope>package</scope>
     </dependency>

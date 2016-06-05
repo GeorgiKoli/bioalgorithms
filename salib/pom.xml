@@ -22,11 +22,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.georgikolishovski.bioalgorithms.biostructures</groupId>
-      <artifactId>biostructures</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <dependency>
     	<groupId>org.apache.maven.plugins</groupId>
     	<artifactId>maven-shade-plugin</artifactId>
     	<version>2.3</version>
