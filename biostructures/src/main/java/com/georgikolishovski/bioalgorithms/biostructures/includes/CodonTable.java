@@ -3,9 +3,10 @@ package com.georgikolishovski.bioalgorithms.biostructures.includes;
 import java.util.Hashtable;
 
 public class CodonTable {
+	
 	private static Hashtable<String, String> codonTable = new Hashtable<String, String>();
 	
-	public CodonTable() {
+	private static void setupCodonTable() {
 		codonTable.put("AUU","I"); codonTable.put("AUC","I"); codonTable.put("AUA","I");
 		
 		codonTable.put("CUU","L"); codonTable.put("CUC","L"); codonTable.put("CUA","L"); 
@@ -54,9 +55,9 @@ public class CodonTable {
 		codonTable.put("CGU","R"); codonTable.put("CGC","R"); codonTable.put("CGA","R");
 		codonTable.put("CGG","R"); codonTable.put("AGA","R"); codonTable.put("AGG","R");
 		
-		codonTable.put("UAA","*");
-		codonTable.put("UAG","*");
-		codonTable.put("UGA","*");
+		codonTable.put("UAA","");
+		codonTable.put("UAG","");
+		codonTable.put("UGA","");
 	}
 	
 	/**
@@ -65,6 +66,9 @@ public class CodonTable {
 	 * @return the amino acid encoded by the RNA codon(3 nucleobases)
 	 */
 	public static String convertRnaToAminoAcid(String codon) {
+		if(codonTable.isEmpty()) {
+			setupCodonTable();
+		}
 		return codonTable.get(codon);
 	}
 	

@@ -1,6 +1,7 @@
 package com.georgikolishovski.bioalgorithms.biostructures;
 
-public class DnaMolecule implements Molecule {
+public class DnaMolecule extends Molecule 
+{
 	static String[] bases = {"A", "T", "G", "C"};
 	
 	/**
