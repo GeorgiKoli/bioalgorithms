@@ -1,5 +1,6 @@
 package com.georgikolishovski.bioalgorithms.biostructures.includes;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
 
 public class IntegerMassTable {
@@ -37,5 +38,29 @@ public class IntegerMassTable {
 	 */
 	public static int getIntegerMass(String aa) {
 		return intMassTable.get(aa);
+	}
+	
+	
+	/**
+	 * GETTER METHOD
+	 * @return all integer mass values
+	 */
+	public static ArrayList<Integer> getIntegerMassValues() {
+		return new ArrayList<Integer>(intMassTable.values());
+	}
+	
+	/**
+	 * 
+	 * @param key
+	 * @return
+	 */
+	public static String getKeyByValue(int key) {
+		for(String k : intMassTable.keySet()) {
+			if(intMassTable.get(k).equals(key)) {
+				return k;
+			}
+		}
+		
+		return null;
 	}
 }
