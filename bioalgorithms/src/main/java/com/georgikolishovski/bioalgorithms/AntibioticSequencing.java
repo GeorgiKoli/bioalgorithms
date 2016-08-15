@@ -1,122 +1,22 @@
 package com.georgikolishovski.bioalgorithms;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import com.georgikolishovski.bioalgorithms.biostructures.includes.IntegerMassTable;
-
-import edu.emory.mathcs.backport.java.util.Collections;
+import com.georgikolishovski.bioalgorithms.includes.*;
+import com.georgikolishovski.bioalgorithms.util.*;
 
 public class AntibioticSequencing {
+	Spectrum cs = new CyclicSpectrum();
+	Spectrum ls = new LinearSpectrum();
+	
 	public AntibioticSequencing() { };
-	
-	/**
-	 * 
-	 * @param peptide - an amino-acid string representing a cyclic peptide
-	 * @return generates and returns the theoretical spectrum of 'peptide'
-	 * @author Georgi Kolishovski
-	 */
-	public List<Integer> cyclospectrum(String peptide) {
-		List<Integer> spectrum = new ArrayList<Integer>();
-		// list of the amino acid masses in peptide (ex. NQEL = 114,128,129,113)
-		List<Integer> masses = new ArrayList<Integer>();
-		int peptideTotalMass = 0; // total sum of the masses of all amino acids in peptide
-		
-		for(int i = 0; i < peptide.length(); ++i) {
-			int m = IntegerMassTable.getIntegerMass(peptide.substring(i, i+1));
-			masses.add(m);
-			peptideTotalMass += m;
-		}
-		
-		// adding first (always 0) and last (sum of all individual amino acid) masses to spectrum
-		spectrum.add(0); spectrum.add(peptideTotalMass);
-		
-		masses.addAll(masses); // for example: 'NQEL' + 'NQEL' = 'NQELNQEL'
-		
-		for(int i = 0; i < peptide.length(); ++i) {
-			int m = masses.get(i);
-			spectrum.add(m);
-			
-			for(int j = 1; j < peptide.length()-1; ++j) {
-				m = m + masses.get(i + j);	
-				spectrum.add(m);
-			}
-		}
-		
-		Collections.sort(spectrum);
-		return spectrum;
-	}
-	
-	/**
-	 * 
-	 * @param peptide string representing an amino acid sequence
-	 * @param experimental list of numbers representing the generated experimental spectrum
-	 * @return the score of the generated experimental spectrum versus the theoretical spectrum
-	 * mass spectrometers generate spectra that is not ideal - they are characterized by having 
-	 * both false masses and missing masses.
-	 * @author Georgi Kolishovski
-	 */
-	public int cycloScore(String peptide, ArrayList<Integer> experimental) {
-		int score = 0; int t = 0; int e = 0;
-		List<Integer> theoretical = cyclospectrum(peptide); // peptide's theoretical spectrum
-		
-		boolean end = (theoretical.size() > 0) ? false : true;
-		
-		// the loop moves 2 indices along the theoretical & experimental spectrums/lists respectively
-		while(end == false) {
-			if(theoretical.get(t).intValue() == experimental.get(e).intValue()) {
-				// matching masses - increase score
-				score += 1; t++; e++;
-			} else if(theoretical.get(t).intValue() > experimental.get(e).intValue()) {
-				e++; // false mass in experimental
-			} else if(theoretical.get(t).intValue() < experimental.get(e).intValue()) {
-				t++; // missing mass in experimental
-			}
-			
-			if(theoretical.get(t-1).intValue() == theoretical.get(theoretical.size()-1)) {
-				end = true;
-			}
-		}	
-		return score;
-	}
-	
-	
-	/**
-	 * 
-	 * @param peptide - an amino acid string representing a linear peptide
-	 * @return generates and returns the theoretical spectrum of 'peptide'
-	 * @author Georgi Kolishovski
-	 */
-	public List<Integer> linearspectrum(String peptide) {
-		List<Integer> spectrum = new ArrayList<Integer>();
-		// list of the amino acid masses in peptide (ex. NQEL = [114,128,129,113])
-		List<Integer> masses = new ArrayList<Integer>();
-		int peptideTotalMass = 0; // total sum of the masses of all amino acids in peptide
-		
-		for(int i = 0; i < peptide.length(); ++i) {
-			int m = IntegerMassTable.getIntegerMass(peptide.substring(i, i+1));
-			masses.add(m);
-			peptideTotalMass += m;
-		}
-		// adding first (always 0) and last (sum of all individual amino acid) masses to spectrum
-		spectrum.add(0); spectrum.add(peptideTotalMass);
-		
-		for(int i = 0; i < peptide.length(); ++i) {
-			int m = masses.get(i);
-			spectrum.add(m);
-			
-			for(int j = i+1; j < peptide.length(); ++j) {
-				m = m + masses.get(j);
-				spectrum.add(m);
-			}
-		}
-		
-		Collections.sort(spectrum);
-		return spectrum;
-	}
 	
 	/**
 	 * 
@@ -124,7 +24,7 @@ public class AntibioticSequencing {
 	 * to an ideal (no mistakes) experimental spectrum
 	 * @return the integer mass strings of a cyclic peptide whose theoretical spectrum 
 	 * matches the given experimental spectrum   
-	 * @author Georgi Kolishovski
+	 * @author Georgi Iliev
 	 */
 	public List<ArrayList<Integer>> cyclopeptideSequencing(ArrayList<Integer> spectrum) {
 		int parentMass = spectrum.get(spectrum.size()-1);
@@ -152,8 +52,9 @@ public class AntibioticSequencing {
 					
 					peptideMass += peptideMasses.get(i);
 				}
+				
 				// get this peptide's theoretical spectrum
-				ArrayList<Integer> cycloSpectrum = (ArrayList<Integer>) cyclospectrum(peptide.toString());
+				ArrayList<Integer> cycloSpectrum = (ArrayList<Integer>) cs.getSpectrum(peptide.toString());
 				
 				if(peptideMass == parentMass) {
 					if(spectrum.containsAll(cycloSpectrum)) {
@@ -161,7 +62,7 @@ public class AntibioticSequencing {
 					}
 					it.remove();
 				}
-				else if(!spectrum.containsAll(linearspectrum(peptide.toString()))) {
+				else if(!spectrum.containsAll(ls.getSpectrum(peptide.toString()))) {
 					it.remove();
 				}
 			}
@@ -174,7 +75,7 @@ public class AntibioticSequencing {
 	 * @param kmers - peptides list - each peptide is of length K
 	 * @return new collection containing all possible extensions of the peptides in 
 	 * 'kmers' by a single amino acid
-	 * @author Georgi Kolishovski
+	 * @author Georgi Iliev
 	 */
 	public Set<ArrayList<Integer>> expand(Set<ArrayList<Integer>> kmers) {
 		List<Integer> masses = IntegerMassTable.getIntegerMassValues();
@@ -197,5 +98,97 @@ public class AntibioticSequencing {
 			}
 		}
 		return expandedKmers; // size of expandedKmers is: length(kmers) * 18
+	}
+	
+	/**
+	 * 
+	 * @param lb
+	 * @param N
+	 * @param spectrum
+	 * @return
+	 */
+	public ArrayList<String> leaderboardCut(ArrayList<String> lb, int N, ArrayList<Integer> spectrum) {
+		// if the size is less than ...
+		if(lb.size() <= N) {
+			return lb;
+		}
+		
+		List<String> g = new ArrayList<String>();
+		
+		Map<String, Integer> mmm = new HashMap<String, Integer>();
+		
+		for(int i = 0; i < lb.size(); i++) {
+			mmm.put(lb.get(i), cs.getPeptideScore(lb.get(i), spectrum));
+		}
+		
+		Map<String, Integer> res = new HashMap<String, Integer>();
+		
+		res = LeaderBoard.sortByValue(mmm, N);
+		
+		Iterator<?> it = res.entrySet().iterator();
+		
+		while(it.hasNext()) {
+			Map.Entry pair = (Map.Entry)it.next();
+			g.add((String) pair.getKey());
+			//System.out.println(pair.getKey() + " " + pair.getValue());
+		}
+		
+		return (ArrayList<String>) g;
+	}
+	
+	/**
+	 * 
+	 * @param spectrum
+	 * @return
+	 */
+	public String leaderboardCyclopeptideSequencing(ArrayList<Integer> spectrum, int N) {
+		int parentMass = spectrum.get(spectrum.size() - 1);
+		// 
+		Set<ArrayList<Integer>> leaderBoard = new HashSet<ArrayList<Integer>>();
+		leaderBoard.add(new ArrayList<Integer>());
+		
+		String leaderPeptide = "";
+		
+		while(leaderBoard.size() > 0) {
+			
+			leaderBoard = expand(leaderBoard);
+			
+			Iterator<ArrayList<Integer>> it = leaderBoard.iterator();
+			
+			while(it.hasNext()) {
+				StringBuilder peptide = new StringBuilder();
+				ArrayList<Integer> peptideMasses = it.next();
+				int peptideMass = 0;
+				
+				for(int i = 0; i < peptideMasses.size(); ++i) {
+					// String k = IntegerMassTable.getKeyByValue(peptideMasses.get(i));
+					
+					// if(k != null) {
+						// peptide.append(k);
+					// }
+					peptide.append(peptideMasses.get(i) + " ");
+					
+					peptideMass += peptideMasses.get(i);
+				}
+				
+				// ArrayList<Integer> cycloSpectrum = (ArrayList<Integer>) cyclospectrum(peptide.toString());
+				
+				if(peptideMass == parentMass) {
+					if(cs.getPeptideScore(IntegerMassTable.getPeptideFromMasses(peptide.toString().trim()), spectrum) > cs.getPeptideScore(leaderPeptide, spectrum)) {
+						leaderPeptide = IntegerMassTable.getPeptideFromMasses(peptide.toString().trim());
+					}
+				}
+				else if(peptideMass > parentMass) {
+					it.remove();
+				}
+			}
+			
+			System.out.println("BANG: " + leaderBoard.size());
+			// leaderBoard = leaderboardCut(leaderBoard, N, spectrum);
+			
+			
+		}
+		
+		return IntegerMassTable.strMassFromPeptide(leaderPeptide);
 	}
 }
